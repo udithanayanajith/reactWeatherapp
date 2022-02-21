@@ -27,16 +27,13 @@ export default function App() {
 
   return ( 
     <div className="app">
-      <div className="search">
-
       {city.map((city,id)=>
-      <span>
-        <Button variant="contained"   onClick={event =>getId()+ setCityid(city.CityCode)+console.log(city.CityCode)}>{city.CityName}</Button>
+      <span >
+        <Button variant="contained" onClick={event =>getId()+ setCityid(city.CityCode)+console.log(city.CityCode)}>{city.CityName}</Button>
       </span>
       
       )}
 
-      </div>
       <div className="container">
         <div className="top">
           <div className="location">
