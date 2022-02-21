@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import ReactDom from 'react-dom';
 import CityDataLocal from "./data/cities.json";
-import { Button } from '@mui/material';
+import {Button} from '@material-ui/core';
 
 export default function App() {
   const [data, setData] = useState({})
